@@ -1,0 +1,4019 @@
+{
+  "Breadcrumb Page": {
+    "breadcrumb_page_locator": {
+     "name": "Breadcrumb Page",
+      "comment": "Breadcrumb Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Breadcrumb')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+     "breadcrumb": {
+        "name": "Breadcrumb",
+        "comment": "Breadcrumb",
+        "locator": "//a[contains(@class, 'breadcrumb')]",
+        "locale_path": "",
+        "search_cond": "xpath"
+      }
+  },
+  "Button Page": {
+    "button_page_locator": {
+      "name": "Button Page",
+      "comment": "Locator for Button Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Button')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_primary": {
+      "name": "Primary Button",
+      "comment": "Primary Button",
+      "locator": "//div[contains(text(), 'Primary')]//..//..//button[contains(@aria-label, 'primary')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_default": {
+      "name": "Default Button",
+      "comment": "Default Button",
+      "locator": "//div[contains(text(), 'Default')]//..//..//button[contains(@aria-label, 'primary')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_secondary": {
+      "name": "Secondary Button",
+      "comment": "Secondary Button",
+      "locator": "//div[not(contains(@style, 'white'))][contains(@style, 'display')]//button[@aria-label='button-secondary']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_text": {
+      "name": "Text Button",
+      "comment": "Text Button",
+      "locator": "//div[not(contains(@style, 'white'))][contains(@style, 'display')]//button[@aria-label='button-text']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_text_secondary": {
+      "name": "Secondary Text Button",
+      "comment": "Secondary Text Button",
+      "locator": "//div[not(contains(@style, 'white'))][contains(@style, 'display')]//button[@aria-label='button-text_secondary']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_print": {
+      "name": "Print Button",
+      "comment": "Print Button",
+      "locator": "//div[not(contains(@style, 'white'))][contains(@style, 'display')]//button[@aria-label='button-print']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Main Page": {
+    "main_page_locator": {
+      "name": "Main Page",
+      "comment": "Main Page",
+      "locator": "//span[contains(@class, 'menu-actions')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_menu": {
+      "name": "Menu Button",
+      "comment": "Menu Button",
+      "locator": "//span[contains(@class, 'menu-actions')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_buttons": {
+      "name": "Buttons Button",
+      "comment": "Buttons Button",
+      "locator": "//div[contains(@title, 'buttons')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_cards": {
+      "name": "Cards Button",
+      "comment": "Cards Button",
+      "locator": "//div[contains(@title, 'cards')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_navigations": {
+      "name": "Navigations Button",
+      "comment": "Navigations Button",
+      "locator": "//div[contains(@title, 'navigations')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_button": {
+      "name": "Button Button",
+      "comment": "Button Button",
+      "locator": "//a[text()='Button']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_forms": {
+      "name": "Forms Button",
+      "comment": "Forms Button",
+      "locator": "//div[contains(@title, 'forms')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_input": {
+      "name": "Input Button",
+      "comment": "Input Button",
+      "locator": "//a[text()='Input']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_phone_input": {
+      "name": "Phone Input Button",
+      "comment": "Phone Input Button",
+      "locator": "//a[text()='TelephoneInput']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_select": {
+      "name": "Select Button",
+      "comment": "Select Button",
+      "locator": "//a[text()='Select']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_text_area": {
+      "name": "Text Area Button",
+      "comment": "Text Area Button",
+      "locator": "//a[text()='TextArea']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_upload_input": {
+      "name": "Upload Input Button",
+      "comment": "Upload Input Button",
+      "locator": "//a[text()='UploadInput']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_load_more": {
+      "name": "Load More Button",
+      "comment": "Load More Button",
+      "locator": "//a[text()='LoadMoreButton']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_toggle": {
+      "name": "Toggle Button",
+      "comment": "Toggle Button",
+      "locator": "//a[text()='ToggleButton']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_smart_pass": {
+      "name": "Smart Pass Button",
+      "comment": "Smart Pass Button",
+      "locator": "//a[text()='SmartPassButton']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_calendar": {
+      "name": "Calendar Button",
+      "comment": "Calendar Button",
+      "locator": "//a[text()='CalendarButton']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_download": {
+      "name": "Download Button",
+      "comment": "Download Button",
+      "locator": "//a[text()='DownloadButton']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_icon": {
+      "name": "Icon Button",
+      "comment": "Icon Button",
+      "locator": "//a[text()='IconButton']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_social_share": {
+      "name": "Social Share Button",
+      "comment": "Social Share Button",
+      "locator": "//a[text()='SocialShareButton']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_upload": {
+      "name": "Upload Button",
+      "comment": "Upload Button",
+      "locator": "//a[text()='UploadButton']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_collapse": {
+      "name": "Collapse Button",
+      "comment": "Collapse Button",
+      "locator": "//a[text()='Collapse']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_accordions": {
+      "name": "Accordions Button",
+      "comment": "Accordions Button",
+      "locator": "//div[contains(@title, 'accordions')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_switchers": {
+      "name": "Switchers Button",
+      "comment": "Switchers Button",
+      "locator": "//div[contains(@title, 'switchers')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_radio_button": {
+      "name": "Radio Button Button",
+      "comment": "Radio Button Button",
+      "locator": "//div[contains(@title, 'switchers')]//..//a[not(contains(., 'ContentRadio'))][contains(., 'RadioButton')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_switch_button": {
+      "name": "Switch Button Button",
+      "comment": "Switch Button Button",
+      "locator": "//div[contains(@title, 'switchers')]//..//a[not(contains(., 'ContentRadio'))][contains(., 'Switch')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_content_radio": {
+      "name": "Content Radio Button",
+      "comment": "SContent Radio Button",
+      "locator": "//div[contains(@title, 'switchers')]//..//a[contains(., 'ContentRadioButton')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_checkbox": {
+      "name": "Checkbox Button",
+      "comment": "Checkbox Button",
+      "locator": "//div[contains(@title, 'switchers')]//..//a[contains(., 'Checkbox')][not(contains(., 'ContentCheckbox'))]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_content_checkbox": {
+      "name": "Content checkbox Button",
+      "comment": "Content checkbox Button",
+      "locator": "//div[contains(@title, 'switchers')]//..//a[contains(., 'ContentCheckbox')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_number_selector": {
+      "name": "Number Selector Button",
+      "comment": "Number Selector Button",
+      "locator": "//div[contains(@title, 'switchers')]//..//a[contains(., 'NumberSelector')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_event_accordion": {
+      "name": "Event Accordion Button",
+      "comment": "Event Accordion Button",
+      "locator": "//a[text()='EventAccordion']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_button_dropdown": {
+      "name": "Dropdown Button",
+      "comment": "Dropdown Button",
+      "locator": "//a[text()='ButtonDropdown']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_text_size": {
+      "name": "Text Size Button",
+      "comment": "Text Size Button",
+      "locator": "//div[contains(@title, 'switchers')]//..//a[contains(., 'TextSize')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_theme_switcher": {
+      "name": "Theme Switcher Button",
+      "comment": "Theme Switcher Button",
+      "locator": "//div[contains(@title, 'switchers')]//..//a[contains(., 'ThemeSwitcher')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_radio_list": {
+      "name": "Radio List button",
+      "comment": "Radio List Button",
+      "locator": "//a[text()='RadioList']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_search_input": {
+      "name": "Search Input button",
+      "comment": "Search Input Button",
+      "locator": "//a[text()='SearchInput']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_sort_select": {
+      "name": "Sort Select button",
+      "comment": "Sort Select Button",
+      "locator": "//a[text()='SortSelect']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_modals": {
+      "name": "Modals button",
+      "comment": "Modals Button",
+      "locator": "//div[contains(@title, 'modals')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_feedback_panel": {
+      "name": "Feedback Panel button",
+      "comment": "Feedback Panel Button",
+      "locator": "//a[text()='FeedbackPanel']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_modal": {
+      "name": "Modal button",
+      "comment": "Modal Button",
+      "locator": "//a[text()='Modal']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_pagination": {
+      "name": "Pagination button",
+      "comment": "Pagination Button",
+      "locator": "//a[text()='Pagination']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_prev_next_buttons": {
+      "name": "Prev Next  button",
+      "comment": "Prev Next Button",
+      "locator": "//a[text()='PrevNextButtons']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_content_checkbox_radio_group": {
+      "name": "Content Checkbox Radio Group Page",
+      "comment": "Content Checkbox Radio Group Page",
+      "locator": "//div[contains(@title, 'switchers')]//..//a[contains(., 'ContentCheckBoxRadioGroup')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_range_slider": {
+      "name": "btn_range_slider",
+      "comment": "btn_range_slider",
+      "locator": "//div[contains(@title, 'switchers')]//..//a[contains(., 'RangeSlider')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_pickers": {
+      "name": "Pickers Button",
+      "comment": "Pickers Button",
+      "locator": "//div[contains(@title, 'pickers')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_date_picker": {
+      "name": "Date Picker Button",
+      "comment": "Date Picker Button",
+      "locator": "//a[text()='DatePicker']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_time_picker": {
+      "name": "Time Picker Button",
+      "comment": "Time Picker Button",
+      "locator": "//a[text()='TimePicker']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_date_time_picker": {
+      "name": "Date Time Picker Button",
+      "comment": "Date Time Picker Button",
+      "locator": "//a[text()='DateTimePicker']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_breadcrumb": {
+      "name": "Breadcrumb Button",
+      "comment": "Breadcrumb Button",
+      "locator": "//a[text()='Breadcrumb']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_emergency_footer": {
+      "name": "Emergency Footer Button",
+      "comment": "Emergency Footer Button",
+      "locator": "//a[text()='EmergencyFooter']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_footer": {
+      "name": "Footer Button",
+      "comment": "Footer Button",
+      "locator": "//a[text()='Footer']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_header": {
+      "name": "Header Button",
+      "comment": "Header Button",
+      "locator": "//a[text()='Header']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_user_menu": {
+      "name": "User Menu Button",
+      "comment": "User Menu Button",
+      "locator": "//a[text()='UserMenu']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_tabs": {
+      "name": "Tabs Button",
+      "comment": "Tabs Button",
+      "locator": "//a[text()='Tabs']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_view_all": {
+      "name": "View All Button",
+      "comment": "View All Button",
+      "locator": "//a[text()='ViewAllButton']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_notifications": {
+      "name": "Notifications Button",
+      "comment": "Notifications Button",
+      "locator": "//div[contains(@title, 'notifications')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_alert": {
+      "name": "Alert Button",
+      "comment": "Alert Button",
+      "locator": "//a[text()='Alert']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_notification": {
+      "name": "Notification Button",
+      "comment": "Notification Button",
+      "locator": "//a[text()='Notification']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_cookie_tray": {
+      "name": "Cookie Tray Button",
+      "comment": "Cookie Tray Button",
+      "locator": "//a[text()='CookieTray']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_notification_list": {
+      "name": "Notification List Button",
+      "comment": "Notification List Button",
+      "locator": "//a[text()='NotificationList']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_action_card": {
+      "name": "Action Card Button",
+      "comment": "Action Card Button",
+      "locator": "//a[text()='ActionCard']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_appointment_card": {
+      "name": "Appointment Card Button",
+      "comment": "Appointment Card Button",
+      "locator": "//a[text()='AppointmentCard']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_article_card": {
+      "name": "Article Card Button",
+      "comment": "Article Card Button",
+      "locator": "//a[text()='ArticleCard']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_card": {
+      "name": "Card Button",
+      "comment": "Card Button",
+      "locator": "//a[text()='Card']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_compare_card": {
+      "name": "Compare Card Button",
+      "comment": "Compare Card Button",
+      "locator": "//a[text()='CompareCard']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_contact_card": {
+      "name": "Contact Card Button",
+      "comment": "Contact Card Button",
+      "locator": "//a[text()='ContactCard']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_event_card": {
+      "name": "Event Card Button",
+      "comment": "Event Card Button",
+      "locator": "//a[text()='EventCard']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_location_card": {
+      "name": "Location Card Button",
+      "comment": "Location Card Button",
+      "locator": "//a[text()='LocationCard']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_logged_in_profile_card": {
+      "name": "Logged In profile Card Button",
+      "comment": "Logged In profile Card Button",
+      "locator": "//a[text()='LoggedInProfileCard']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_profile_card": {
+      "name": "Profile Card Button",
+      "comment": "Profile Card Button",
+      "locator": "//a[text()='ProfileCard']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_small_card": {
+      "name": "Small Card Button",
+      "comment": "Small Card Button",
+      "locator": "//a[text()='SmallCard']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_small_description_card": {
+      "name": "Small Description Card Button",
+      "comment": "Small Description Card Button",
+      "locator": "//a[text()='SmallDescriptionCard']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_summary_card": {
+      "name": "Summary Card Button",
+      "comment": "Summary Card Button",
+      "locator": "//a[text()='SummaryCard']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_fact_sheet_card": {
+      "name": "Fact Sheet Card Button",
+      "comment": "Fact Sheet Card Button",
+      "locator": "//a[text()='FactSheetCard']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_label_content_card": {
+      "name": "Label Content Card Button",
+      "comment": "Label Content Card Button",
+      "locator": "//a[text()='LabelContentCard']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_lists": {
+      "name": "Lists Button",
+      "comment": "Lists Button",
+      "locator": "//div[contains(@title, 'lists')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_composite_list": {
+      "name": "Composite List Button",
+      "comment": "Composite List Button",
+      "locator": "//a[text()='CompositeList']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_stepper": {
+      "name": "Stepper Button",
+      "comment": "Stepper Button",
+      "locator": "//a[text()='Stepper']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_vertical_stepper": {
+      "name": "Vertical Stepper Button",
+      "comment": "Vertical Stepper Button",
+      "locator": "//a[text()='VerticalStepper']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_others": {
+      "name": "Others Button",
+      "comment": "Others Button",
+      "locator": "//div[contains(@title, 'others')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_social_share_panel": {
+      "name": "Social Share Panel Button",
+      "comment": "Social Share Panel Button",
+      "locator": "//a[text()='SocialSharePanel']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_table": {
+      "name": "Table Button",
+      "comment": "Table Button",
+      "locator": "//a[text()='Table']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_tag": {
+      "name": "Tag Button",
+      "comment": "Tag Button",
+      "locator": "//a[text()='Tag']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_plan_card": {
+      "name": "Tag Button",
+      "comment": "Tag Button",
+      "locator": "//a[text()='PlanCard']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_badge": {
+      "name": "Badge Button",
+      "comment": "Badge Button",
+      "locator": "//a[text()='Badge']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_not_found": {
+      "name": "Not Found Button",
+      "comment": "Not Found Button",
+      "locator": "//a[text()='NotFound']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_hero": {
+      "name": "Hero Button",
+      "comment": "Hero Button",
+      "locator": "//a[text()='Hero']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_progress_bar": {
+      "name": "Progress Bar Button",
+      "comment": "Progress Bar Button",
+      "locator": "//a[text()='ProgressBar']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_service": {
+      "name": "Service Button",
+      "comment": "Service Button",
+      "locator": "//a[text()='Service']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_nav_link": {
+      "name": "Nav Link Button",
+      "comment": "Nav Link Button",
+      "locator": "//a[text()='NavLink']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_carousel": {
+      "name": "Carousel Button",
+      "comment": "Carousel Button",
+      "locator": "//a[text()='Carousel']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_image_gallery": {
+      "name": "Image Gallery Button",
+      "comment": "Image Gallery Button",
+      "locator": "//a[text()='ImageGallery']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_spinner": {
+      "name": "Spinner Button",
+      "comment": "Spinner Button",
+      "locator": "//a[text()='Spinner']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_sidebar": {
+      "name": "Sidebar Button",
+      "comment": "Sidebar Button",
+      "locator": "//a[text()='Sidebar']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_form": {
+      "name": "Form Button",
+      "comment": "Form Button",
+      "locator": "//a[text()='Form']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Input Page": {
+    "input_page_locator": {
+      "name": "Input Page",
+      "comment": "Locator for Input Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Input')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "input_success": {
+      "name": "Success Input",
+      "comment": "Success Input",
+      "locator": "//input[contains(@label, 'success')]/parent::*/parent::*",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "input_failure": {
+      "name": "Failed Input",
+      "comment": "Failed Input",
+      "locator": "//input[contains(@label, 'error')]/parent::*/parent::*",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "input_disabled": {
+      "name": "Disabled Input",
+      "comment": "Disabled Input",
+      "locator": "//input[contains(@label, 'disabled')]/parent::*/parent::*",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Phone Input Page": {
+    "phone_input_page_locator": {
+      "name": "Phone Input Page",
+      "comment": "Locator for Phone Input Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'TelephoneInput')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "phone_input_success": {
+      "name": "Phone Input Success",
+      "comment": "Locator for Phone Input Success",
+      "locator": "//input[contains(@aria-label, 'success')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "phone_input_code_failure": {
+      "name": "Phone Input Code Failure",
+      "comment": "Locator for Phone Input Code Failure",
+      "locator": "//div[contains(@class, 'input-validation') and contains(text(), 'Code error')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "phone_input_phone_failure": {
+      "name": "Phone Input Phone Failure",
+      "comment": "Locator for Phone Input Phone Failure",
+      "locator": "//div[contains(@class, 'input-validation') and contains(text(), 'Number error')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "phone_input_phone_code_failure": {
+      "name": "Phone Input Phone Code Failure",
+      "comment": "Locator for Phone Input Phone Code Failure",
+      "locator": "//div[contains(@class, 'input-validation') and contains(text(), 'Code and number error')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "phone_input_disabled": {
+      "name": "Phone Input disabled",
+      "comment": "Locator for Phone Input disabled",
+      "locator": "//input[contains(@aria-label, 'disabled')]/parent::*/parent::*",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "code_success": {
+      "name": "Code Success",
+      "comment": "Locator for Code Success",
+      "locator": "//div[contains(@class, 'code') and contains(@class, 'success')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "phone_success": {
+      "name": "Code Success",
+      "comment": "Locator for Code Success",
+      "locator": "//input[contains(@aria-label, 'TelephoneInput success')]/parent::*/parent::*",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "code_failure": {
+      "name": "Code Failure",
+      "comment": "Locator for Code Failure",
+      "locator": "{}/..//div[contains(@class, 'input-codes')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "phone_failure": {
+      "name": "Code Failure",
+      "comment": "Locator for Code Failure",
+      "locator": "{}/..//input[contains(@aria-label, 'TelephoneInput error')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Select Page": {
+    "select_page_locator": {
+      "name": "Select Page",
+      "comment": "Locator for Select Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Select')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "select_success": {
+      "name": "Success Select",
+      "comment": "Success Select",
+      "locator": "//div[contains(text(), 'success')]/../parent::*",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "select_failure": {
+      "name": "Error Select",
+      "comment": "Error Select",
+      "locator": "//div[contains(text(), 'error')]/../parent::*",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "select_disabled": {
+      "name": "Disabled Select",
+      "comment": "Disabled Select",
+      "locator": "//div[contains(text(), 'disabled')]/parent::*/parent::*//div[contains(@class, 'select-field')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Text Area Page": {
+    "text_area_page_locator": {
+      "name": "Text Area Page",
+      "comment": "Locator for Text Area Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'TextArea')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "text_area_success": {
+      "name": "Success Text Area",
+      "comment": "Success Text Area",
+      "locator": "//div[contains(text(), 'success')]/../../parent::*",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "text_area_failure": {
+      "name": "Error Text Area",
+      "comment": "Error Text Area",
+      "locator": "//div[contains(text(), 'error')]/../parent::*",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "text_area_disabled": {
+      "name": "Disabled Text Area",
+      "comment": "Disabled Text Area",
+      "locator": "//div[contains(text(), 'disabled')]/parent::*/parent::*",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Upload Input Page": {
+    "upload_input_page_locator": {
+      "name": "Upload Input Page",
+      "comment": "Locator for Upload Input Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'UploadInput')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "upload_input_success": {
+      "name": "Success Upload Input",
+      "comment": "Success Upload Input",
+      "locator": "//input[contains(@placeholder, 'success')]/../parent::*",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "upload_input_failure": {
+      "name": "Error Upload Input",
+      "comment": "Error Upload Input",
+      "locator": "//input[contains(@placeholder, 'error')]/../parent::*",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "upload_input_disabled": {
+      "name": "Disabled Upload Input",
+      "comment": "Disabled Upload Input",
+      "locator": "//input[contains(@placeholder, 'disabled')]/../parent::*",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Load More Button Page": {
+    "load_more_button_page_locator": {
+      "name": "Load More Button Page",
+      "comment": "Locator for Load More Button Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'LoadMoreButton')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_load_more": {
+      "name": "Load More Button",
+      "comment": "Load More Button",
+      "locator": "//button[contains(@aria-label, 'button')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Toggle Button Page": {
+    "toggle_button_page_locator": {
+      "name": "Toggle Button Page",
+      "comment": "Locator for Toggle Button Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'ToggleButton')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_toggle": {
+      "name": "Toggle Button",
+      "comment": "Toggle Button",
+      "locator": "//label[contains(@for, 'toggle')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Collapse Page": {
+    "collapse_page_locator": {
+      "name": "Collapse Page",
+      "comment": "Locator for Collapse Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Collapse')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_plus_minus_transparent": {
+      "name": "Plus/minus Transparent Accordion Button",
+      "comment": "Locator for Plus Button Accordion",
+      "locator": "//div[contains(@class,'collapse_transparent')]/div[1]//i",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "collapse_element_transparent_1": {
+      "name": "1st Element of Transparent Accordion",
+      "comment": "Locator for 1st Element of Transparent Accordion",
+      "locator": "//div[contains(@class,'collapse_transparent')]/div[1]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_plus_minus_opaque": {
+      "name": "Plus/minus Opaque Accordion Button",
+      "comment": "Locator for Plus/minus Opaque Accordion Button",
+      "locator": "//div[contains(@class,'collapse_opaque')]/div[1]//i",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "collapse_element_opaque_1": {
+      "name": "1st Element of Opaque  Accordion",
+      "comment": "Locator for 1st Element of Opaque  Accordion",
+      "locator": "//div[contains(@class,'collapse_opaque')]/div[1]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Smart Pass Button Page": {
+    "smart_pass_button_page_locator": {
+      "name": "Smart Pass Button Page",
+      "comment": "Locator for Smart Pass Button Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'SmartPassButton')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_smart_pass_large": {
+      "name": "SMart Pass Button Large",
+      "comment": "SMart Pass Button Large",
+      "locator": "//div[contains(text(), 'Start')]/../..",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Calendar Button Page": {
+    "calendar_button_page_locator": {
+      "name": "Calendar Button Page",
+      "comment": "Locator for Calendar Button Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'CalendarButton')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_calendar": {
+      "name": "Calendar Button",
+      "comment": "Locator for Calendar Button",
+      "locator": "//button[contains(@aria-label, 'button')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Download Button Page": {
+    "download_button_page_locator": {
+      "name": "Download Button Page",
+      "comment": "Locator for Download Button Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'DownloadButton')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_download": {
+      "name": "Download Button",
+      "comment": "Locator for Download Button",
+      "locator": "//a[@download]/..",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Icon Button Page": {
+    "icon_button_page_locator": {
+      "name": "Icon Button Page",
+      "comment": "Locator for Icon Button Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'IconButton')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_icon": {
+      "name": "Icon Button",
+      "comment": "Locator for Icon Button",
+      "locator": "//button[@title = 'icon-button']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_icon_primary": {
+      "name": "Primary Icon Button",
+      "comment": "Locator for Primary Icon Button",
+      "locator": "//button[@title = 'icon-button-primary']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_icon_disabled": {
+      "name": "Icon Button disabled",
+      "comment": "Locator for Icon Button disabled",
+      "locator": "//button[@title = 'icon-button-disabled']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_icon_primary_disabled": {
+      "name": "Primary Icon Button disabled",
+      "comment": "Locator for Primary Icon Button disabled",
+      "locator": "//button[@title = 'icon-button-primary-disabled']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Social Share Button Page": {
+    "social_share_button_page_locator": {
+      "name": "Social Share Button Page",
+      "comment": "Locator for Social Share Button Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'SocialShareButton')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_social_share": {
+      "name": "Social Share Button",
+      "comment": "Locator for Social Share Button",
+      "locator": "//button[contains(@aria-label, 'social-share-button')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Upload Button Page": {
+    "upload_button_page_locator": {
+      "name": "Upload Button Page",
+      "comment": "Locator for Upload Button Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'UploadButton')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_upload": {
+      "name": "Upload Button",
+      "comment": "Locator for Upload Button",
+      "locator": "//label[contains(@for,  'upload-button')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Content Radio Button Page": {
+    "content_radio_button_page_locator": {
+      "name": "Content Radio Button Page",
+      "comment": "Locator for Content Radio Button Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'ContentRadioButton')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_radio_button": {
+      "name": "Checked, Unchecked, Unchecked disabled Radio Buttons",
+      "comment": "Checked Radio Button",
+      "locator": "//div[contains(@class, 'uil-radio-item')]//span[contains(@class, 'ant-radio')][not(contains(@class, 'ant-radio-inner'))]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Checkbox Page": {
+    "checkbox_page_locator": {
+      "name": "Checkbox Page",
+      "comment": "Checkbox Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Checkbox')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "chbx_black_color": {
+      "name": "Checkboxes with black color",
+      "comment": "Checkboxes with black color",
+      "locator": "//label[contains(@class, 'uil-checkbox_default')]//span[contains(@class, 'ant')][not(contains(@class, 'inner'))]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "chbx_white_color": {
+      "name": "Checkboxes with white color",
+      "comment": "Checkboxes with white color",
+      "locator": "//label[contains(@class, 'uil-checkbox_inversed')]//span[contains(@class, 'ant')][not(contains(@class, 'inner'))]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Content Checkbox Page": {
+    "content_checkbox_page_locator": {
+      "name": "Content checkbox Page",
+      "comment": "Content checkbox Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'ContentCheckbox')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "chbx_content": {
+      "name": "Content checkboxes",
+      "comment": "Content checkboxes",
+      "locator": "//label[contains(@class, 'uil-checkbox')]//span[contains(@class, 'ant')][not(contains(@class, 'inner'))]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Event Accordion Page": {
+    "event_accordion_page_locator": {
+      "name": "Collapse Page",
+      "comment": "Locator for Collapse Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'EventAccordion')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_plus_minus": {
+      "name": "Plus/minus Accordion Button",
+      "comment": "Locator for Plus Button Accordion",
+      "locator": "//div[contains(@class,'event-accordion')][1]/div[1]//i",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "event_accordion_element_1": {
+      "name": "1st Element of Event Accordion",
+      "comment": "Locator for 1st Element of Event Accordion",
+      "locator": "//div[contains(@class,'event-accordion')][1]/div[1]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Number Selector Page": {
+    "number_selector_page_locator": {
+      "name": "Number Selector Page",
+      "comment": "Number Selector Pag",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'NumberSelector')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_number_selector_minus": {
+      "name": "Number selector minus button",
+      "comment": "Number selector minus button",
+      "locator": "//span[contains(., 'Number')]/..//button[contains(@class, 'button-minus')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_number_selector_plus": {
+      "name": "Number selector plus button",
+      "comment": "Number selector plus button",
+      "locator": "//span[contains(., 'Number')]/..//button[contains(@class, 'button-plus')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "number_selector_value": {
+      "name": "Number selector value",
+      "comment": "Number selector value",
+      "locator": "//span[contains(., 'Number')]/..//span[contains(@class, '__value')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_disabled_number_selector_minus": {
+      "name": "Disabled number selector minus button",
+      "comment": "Disabled number selector minus button",
+      "locator": "//span[contains(., 'Disabled')]/..//button[contains(@class, 'button-minus')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_disabled_number_selector_plus": {
+      "name": "Disabled number selector plus button",
+      "comment": "Disabled number selector plus button",
+      "locator": "//span[contains(., 'Disabled')]/..//button[contains(@class, 'button-plus')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "disabled_number_selector_value": {
+      "name": "Disabled number selector value",
+      "comment": "Disabled number selector value",
+      "locator": "//span[contains(., 'Disabled')]/..//span[contains(@class, '__value')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Button Dropdown Page": {
+    "button_dropdown_page_locator": {
+      "name": "Button Dropdown Page",
+      "comment": "Locator for Button Dropdown Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'ButtonDropdown')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_dropdown": {
+      "name": "Button Dropdown",
+      "comment": "Locator for Button Dropdown",
+      "locator": "//div[contains(@class, 'dropdown__button')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_dropdown_icon": {
+      "name": "Button Dropdown Icon",
+      "comment": "Locator for Button Dropdown Icon",
+      "locator": "//div[contains(@class, 'dropdown__button')]/i[contains(@class, 'button-dropdown')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Radio List Page": {
+    "radio_list_page_locator": {
+      "name": "Radio List Page",
+      "comment": "Locator for Radio List Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'RadioList')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "radio_list_item": {
+      "name": "Radio List",
+      "comment": "Locator for Radio List",
+      "locator": "//span[contains(@class, 'ant-radio')]//input[contains(@value, 'Radio')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "radio_list_lbl": {
+      "name": "Radio List label",
+      "comment": "Locator for Radio List Label",
+      "locator": "//input[contains(@value, 'Radio')]/..",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Search Input Page": {
+    "search_input_page_locator": {
+      "name": "Search Input Page",
+      "comment": "Locator for Search Input Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'SearchInput')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "search_input": {
+      "name": "Search Input",
+      "comment": "Locator for Search Input",
+      "locator": "//input[contains(@id, 'uil-search-input')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Sort Select Page": {
+    "sort_select_page_locator": {
+      "name": "Sort Select Page",
+      "comment": "Locator for SSort Select Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'SortSelect')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "sort_select_input": {
+      "name": "Sort Select",
+      "comment": "Locator for Sort Select",
+      "locator": "//input[contains(@class, 'select-search')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_open_sort_select": {
+      "name": "Open Sort Select Button",
+      "comment": "Open Sort Select Button",
+      "locator": "//div[contains(@class, 'ant-select-selection--single')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "sort_select_item": {
+      "name": "Sort Select Items",
+      "comment": "Locator for Sort Select Items",
+      "locator": "//li[contains(@class, 'uil-sort-select__option')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "sort_select": {
+      "name": "Sort Select",
+      "comment": "Locator for Sort Select",
+      "locator": "//div[contains(@class, 'selected-value')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Feedback Panel Page": {
+    "feedback_panel_page_locator": {
+      "name": "Feedback Panel Page",
+      "comment": "Locator for Feedback panel Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'FeedbackPanel')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_yes": {
+      "name": "Yes Button",
+      "comment": "Locator for Yes Button",
+      "locator": "//button[@type = 'submit']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_no": {
+      "name": "No Button",
+      "comment": "No Button",
+      "locator": "//button[@type = 'button']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "txb_email": {
+      "name": "Email textbox",
+      "comment": "Locator for Email textbox",
+      "locator": "//input[contains(@id, 'email')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "txb_comment": {
+      "name": "Comment Textbox",
+      "comment": "Comment Textbox",
+      "locator": "//textarea[contains(@id, 'comments')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_next": {
+      "name": "Next Button",
+      "comment": "Next Button",
+      "locator": "//button[contains(@class, 'submit')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_thanks": {
+      "name": "Thanks Label",
+      "comment": "Thanks Label",
+      "locator": "//span[contains(@class, 'header')][contains(text(), 'Thanks')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "feedback_panel": {
+      "name": "Feedback Panel",
+      "comment": "Feedback Panel",
+      "locator": "//form[contains(@class, 'feedback')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "chckbx_phone": {
+      "name": "Phone Checkbox",
+      "comment": "Phone Checkbox",
+      "locator": "//input[@id='callback']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Modal Page": {
+    "modal_page_locator": {
+      "name": "Modal Page",
+      "comment": "Locator for Modal Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Modal')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "modal": {
+      "name": "Modal",
+      "comment": "Locator for Modal",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Modal')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_modal": {
+      "name": "Modal Button",
+      "comment": "Locator for Modal Button",
+      "locator": "//div[text() = 'Open Modal']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_modal_footer": {
+      "name": "Modal footer Button",
+      "comment": "Modal footer Button",
+      "locator": "//div[contains(text(), 'Custom Footer')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_modal_confirm": {
+      "name": "Modal Confirm Button",
+      "comment": "Modal Confirm Button",
+      "locator": "//div[contains(text(), 'Confirm Modal')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_modal_success": {
+      "name": "Modal Success Button",
+      "comment": "Modal Success Button",
+      "locator": "//div[contains(text(), 'Success')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_modal_error": {
+      "name": "Modal Error Button",
+      "comment": "Modal Error Button",
+      "locator": "//div[contains(text(), 'Error')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_footer": {
+      "name": "Footer Label",
+      "comment": "Footer Label",
+      "locator": "//div[contains(@class, 'ant-modal-footer')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_topper": {
+      "name": "Topper Label",
+      "comment": "Topper Label",
+      "locator": "//div[contains(@class, 'ant-modal-title')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_text": {
+      "name": "Text Label",
+      "comment": "Text Label",
+      "locator": "//div[contains(@class, 'uil-modal__description')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_success": {
+      "name": "Success Label",
+      "comment": "Success Label",
+      "locator": "//i[contains(@class, 'check')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_error": {
+      "name": "Error Label",
+      "comment": "Error Label",
+      "locator": "//i[contains(@class, 'cancel')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_next": {
+      "name": "Phone Checkbox",
+      "comment": "Phone Checkbox",
+      "locator": "//button[contains(@class, 'success')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_ok": {
+      "name": "Phone Checkbox",
+      "comment": "Phone Checkbox",
+      "locator": "//button[contains(@class, 'success')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_cancel": {
+      "name": "Phone Checkbox",
+      "comment": "Phone Checkbox",
+      "locator": "//button[contains(@class, 'cancel')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Radio Button Page": {
+    "radio_button_page_locator": {
+      "name": "Radio Button Page",
+      "comment": "Radio Button Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'RadioButton')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_radio_button_black_color": {
+      "name": "Radio button with black color",
+      "comment": "Radio button with black color",
+      "locator": "//div[contains(@class, 'locale')]//div[contains(@class, 'uil-radio-button_default')]//span[contains(@class, 'ant-')][not(contains(@class, 'inner'))]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_radio_button_white_color": {
+      "name": "Radio button with white color",
+      "comment": "Radio button with white color",
+      "locator": "//div[contains(@class, 'locale')]//div[contains(@class, 'uil-radio-button_inversed')]//span[contains(@class, 'ant-')][not(contains(@class, 'inner'))]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Switch Page": {
+    "switch_page_locator": {
+      "name": "Switch Page",
+      "comment": "Switch Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Switch')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_switcher": {
+      "name": "Switcher Buttons",
+      "comment": "Switcher Buttons",
+      "locator": "//span[contains(@class, 'uil-switch')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_switch_unchecked": {
+      "name": "Switch unchecked Button",
+      "comment": "Switch unchecked Button",
+      "locator": "//span[@class = 'uil-switch qa-switch  ant-switch']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_switch_checked": {
+      "name": "Switch checked Button",
+      "comment": "Switch checked Button",
+      "locator": "//span[@class = 'uil-switch qa-switch  ant-switch ant-switch-checked']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Pagination Page": {
+    "pagination_page_locator": {
+      "name": "Pagination Page",
+      "comment": "Pagination Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Pagination')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "pagination": {
+      "name": "Radio button with black color",
+      "comment": "Radio button with black color",
+      "locator": "//ul[contains(@class, 'pagination')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_next": {
+      "name": "Next Button",
+      "comment": "Next Button",
+      "locator": "//li[contains(@title, 'Next Page')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_prev": {
+      "name": "Previous Button",
+      "comment": "Previous Button",
+      "locator": "//li[contains(@title, 'Previous Page')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_between": {
+      "name": "Middle Button",
+      "comment": "Middle Button",
+      "locator": "//li[contains(@class, 'ant-pagination-jump-next')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_page": {
+      "name": "Page Button {}",
+      "comment": "Page Button",
+      "locator": "//li[contains(@class, 'ant-pagination-item ant-pagination-item-{}')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Prev Next Buttons Page": {
+    "prev_next_buttons_page_locator": {
+      "name": "Prev Next Buttons Page",
+      "comment": "Prev Next Buttons Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'PrevNextButtons')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "prev_next_buttons": {
+      "name": "Prev Next Buttons",
+      "comment": "Prev Next Buttons",
+      "locator": "//div[contains(@class, 'uil-prev-next-buttons ')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_next": {
+      "name": "Next Button {}",
+      "comment": "Next Button",
+      "locator": "//div[contains(@class, 'uil-prev-next-buttons ')][{}]//button[@aria-label='next-button']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_prev": {
+      "name": "Previous Button {}",
+      "comment": "Previous Button",
+      "locator": "//div[contains(@class, 'uil-prev-next-buttons ')][{}]//button[@aria-label='prev-button']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Text Size Page": {
+    "text_size_page_locator": {
+      "name": "Text Size Page",
+      "comment": "Text Size Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'TextSize')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_increase_black_color": {
+      "name": "Button increase with black color",
+      "comment": "Button increase with black color",
+      "locator": "//div[contains(@class, 'size_default')]//button[contains(@class, 'button-increase')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_decrease_black_color": {
+      "name": "Button decrease with black color",
+      "comment": "Button decrease with black color",
+      "locator": "//div[contains(@class, 'size_default')]//button[contains(@class, 'button-descrease')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_increase_white_color": {
+      "name": "Button increase with white color",
+      "comment": "Button increase with white color",
+      "locator": "//div[contains(@class, 'size_inversed')]//button[contains(@class, 'button-increase')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_decrease_white_color": {
+      "name": "Button decrease with white color",
+      "comment": "Button decrease with white color",
+      "locator": "//div[contains(@class, 'size_inversed')]//button[contains(@class, 'button-descrease')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Theme Switcher Page": {
+    "theme_switcher_page_locator": {
+      "name": "Theme Switcher Page",
+      "comment": "Theme Switcher Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'ThemeSwitcher')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_dark_black_color": {
+      "name": "Button dark with black color",
+      "comment": "Button dark with black color",
+      "locator": "//div[contains(@class, 'switcher_default')]//label[contains(@class, 'dark')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_light_black_color": {
+      "name": "Button light with black color",
+      "comment": "Button light with black color",
+      "locator": "//div[contains(@class, 'switcher_default')]//label[contains(@class, 'switcher-button')][not(contains(@class, 'dark'))]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_dark_white_color": {
+      "name": "Button dark with white color",
+      "comment": "Button dark with white color",
+      "locator": "//div[contains(@class, 'switcher_inversed')]//label[contains(@class, 'dark')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_light_white_color": {
+      "name": "Button light with white color",
+      "comment": "Button light with white color",
+      "locator": "//div[contains(@class, 'switcher_inversed')]//label[contains(@class, 'switcher-button')][not(contains(@class, 'dark'))]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Content Checkbox Radio Group Page": {
+    "content_checkbox_radio_group_page_locator": {
+      "name": "Content Checkbox Radio Group Page",
+      "comment": "Content Checkbox Radio Group Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'ContentCheckBoxRadioGroup')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "chbx_content_checkbox_group": {
+      "name": "Content checkboxes group",
+      "comment": "Content checkboxes",
+      "locator": "//label[contains(@class, 'uil-checkbox')]//span[contains(@class, 'ant')][not(contains(@class, 'inner'))]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_radio_button_group": {
+      "name": "Radio button group",
+      "comment": "Radio button group",
+      "locator": "//div[contains(@class, 'locale')]//div[contains(@class, 'uil-radio')]//span[contains(@class, 'ant-')][not(contains(@class, 'inner'))]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Range Slider Page": {
+    "range_slider_page_locator": {
+      "name": "Range Slider Page",
+      "comment": "Range Slider Page",
+      "locator": "//body[.//div[contains(@class, 'dls-content-page__content')]]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "based_component": {
+      "name": "Based component on the Page",
+      "comment": "Based component on the Page",
+      "locator": "//pre[contains(@class, 'dls-component-info__description')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "sliders_white_color": {
+      "name": "Range Sliders white color",
+      "comment": "Range Sliders white color",
+      "locator": "//div[contains(@class, 'slider_default')]//div[contains(@class, 'qa-slider')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "sliders_black_color": {
+      "name": "Range Sliders black color",
+      "comment": "Range Sliders black color",
+      "locator": "//div[contains(@class, 'slider_inv')]//div[contains(@class, 'qa-slider')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "sliders_white_color_value": {
+      "name": "Values for range Sliders white color",
+      "comment": "Values for range Sliders white color",
+      "locator": "//div[contains(@class, 'slider_default')]//span[contains(@class, 'range-slider-value')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "sliders_black_color_value": {
+      "name": "Values for range Sliders black color",
+      "comment": "Values for range Sliders black color",
+      "locator": "//div[contains(@class, 'slider_inv')]//span[contains(@class, 'range-slider-value')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "slider_1_white": {
+      "name": "Slider 1 white",
+      "comment": "Slider 1 white",
+      "locator": "//div[contains(@class, 'slider_default')]//div[not(contains(@class, 'disable'))]//div[contains(@class, 'track-1')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "slider_2_white": {
+      "name": "Slider 2 black",
+      "comment": "Slider 2 black",
+      "locator": "//div[contains(@class, 'slider_default')]//div[not(contains(@class, 'disable'))]//div[contains(@class, 'track')][not(contains(@class, 'track-1'))]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Date Picker Page": {
+    "date_picker_page_locator": {
+      "name": "Date Picker Page",
+      "comment": "Locator for Date Picker Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'DatePicker')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "input_date_picker_default": {
+      "name": "Date Picker Default View",
+      "comment": "Date Picker Default View",
+      "locator": "//div[contains(@class,'date-picker-wrapper_default')][1]/span/div/input",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "input_date_picker_selected": {
+      "name": "Date Picker Selected View",
+      "comment": "Date Picker Selected View",
+      "locator": "//div[contains(@class,'date-picker-wrapper_default')][2]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "input_date_calendar_icon": {
+      "name": "Date Picker Calendar Icon View",
+      "comment": "Date Picker Calendar Icon View",
+      "locator": "//div[contains(@class,'date-picker-wrapper_default')][1]//span[contains(@class,'calendar-picker-icon')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "input_date_calendar_icon_clear": {
+      "name": "Date Picker Clear Icon View",
+      "comment": "Date Picker Clear Icon View",
+      "locator": "//div[contains(@class,'date-picker-wrapper_default')][2]//i[contains(@class,'calendar-picker-clear')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "input_date_calendar_dropdown": {
+      "name": "Date Picker Dropdown View",
+      "comment": "Date Picker DropDown View",
+      "locator": "//div[contains(@class,'date-picker-wrapper_default')][1]//div[contains(@class,'calendar-picker-container')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "input_date_calendar_dropdown_selected": {
+      "name": "Date Picker Dropdown For Selected Date View",
+      "comment": "Date Picker DropDown For Selected Date View",
+      "locator": "//div[contains(@class,'date-picker-wrapper_default')][2]//div[contains(@class,'calendar-picker-container')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "input_date_calendar_disabled": {
+      "name": "Date Picker Disabled View",
+      "comment": "Date Picker Dissabled View",
+      "locator": "//div[contains(@class,'date-picker-wrapper_default')]/span[contains(@class,'date-picker_disabled')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_prev_year": {
+      "name": "Button Previous Year",
+      "comment": "Button Previous Year",
+      "locator": "//a[contains(@class,'prev-year-btn')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_prev_month": {
+      "name": "Button Previous Month",
+      "comment": "Button Previous Month",
+      "locator": "//a[contains(@class,'prev-month-btn')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_month": {
+      "name": "Button Month Selected",
+      "comment": "Button Month Selected",
+      "locator": "//a[contains(@class,'month-select')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_year": {
+      "name": "Button Year Selected",
+      "comment": "Button Year Selected",
+      "locator": "//a[contains(@class,'year-select')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_next_month": {
+      "name": "Button Next Month",
+      "comment": "Button Next Month",
+      "locator": "//a[contains(@class,'next-month-btn')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_next_year": {
+      "name": "Button Next Year",
+      "comment": "Button Next Year",
+      "locator": "//a[contains(@class,'next-year-btn')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_today": {
+      "name": "Button Today",
+      "comment": "Button Today",
+      "locator": "//a[contains(@class,'today-btn')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "calendar_all_rows": {
+      "name": "Calendar All Rows {}",
+      "comment": "Calendar All Rows",
+      "locator": "//table[contains(@class, 'calendar-table')]//div[contains(@class, 'ant-calendar')][contains(text(), '{}')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Emergency Footer Page": {
+    "emergency_footer_page_locator": {
+      "name": "Emergency Footer Page",
+      "comment": "Emergency Footer Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'EmergencyFooter')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "emergency_footer": {
+      "name": "Emergency Footer",
+      "comment": "Emergency Footer",
+      "locator": "//div[contains(@class, 'uil-emergency-footer ')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_header": {
+      "name": "Emergency Footer header",
+      "comment": "Emergency Footer header",
+      "locator": "//div[@class = 'uil-emergency-footer__header']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_police": {
+      "name": "Police emergency",
+      "comment": "Police emergency",
+      "locator": "//span[contains(@class, 'info-item-service') and contains(text(), 'Police')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_civil": {
+      "name": "Emergency Civil",
+      "comment": "Emergency Civil",
+      "locator": "//span[contains(@class, 'info-item-service') and contains(text(), 'Civil')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_electricity": {
+      "name": "Emergency Electricity",
+      "comment": "Emergency Electricity",
+      "locator": "//span[contains(@class, 'info-item-service') and contains(text(), 'Electricity')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_view_more": {
+      "name": "View More Button",
+      "comment": "View More Button",
+      "locator": "//button[contains(@class, 'view-more') and not(contains(@class, 'header'))]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Footer Page": {
+    "footer_page_locator": {
+      "name": "Footer Page",
+      "comment": "Footer Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Footer')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "footer": {
+      "name": "Footer",
+      "comment": "Footer",
+      "locator": "//div[@class='uil-footer__wrapper']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_useful_links": {
+      "name": "Useful Links section",
+      "comment": "Useful Links section",
+      "locator": "//ul[contains(@class, 'footer-content-useful-links')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_support": {
+      "name": "Support Section",
+      "comment": "Support Section",
+      "locator": "//ul[contains(@class, 'footer-content-support-links')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_follow_us": {
+      "name": "Follow Us section",
+      "comment": "Follow Us section",
+      "locator": "//ul[contains(@class, 'footer-content-follow-us-links')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_accessibility": {
+      "name": "Text Size accessibility section",
+      "comment": "Emergency Electricity",
+      "locator": "//div[contains(@class, 'text-size-container')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_language": {
+      "name": "Language selector",
+      "comment": "Language Selector",
+      "locator": "//div[contains(@class, 'language-selector')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Header Page": {
+    "header_page_locator": {
+      "name": "Header Page",
+      "comment": "Header Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Header')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "header": {
+      "name": "Header",
+      "comment": "Header",
+      "locator": "//header[contains(@class, 'uil-header_absolute')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_menu": {
+      "name": "Menu Button",
+      "comment": "Menu Button",
+      "locator": "//div[contains(@class, 'uil-side-menu__toggle ')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_logo": {
+      "name": "Logo",
+      "comment": "Logo",
+      "locator": "//a[contains(@class, 'uil-header__logo')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_language_switcher": {
+      "name": "Language switch button",
+      "comment": "Language switch button",
+      "locator": "//div[contains(@class, 'header')]//button[contains(@class, 'uil-language-switcher')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_search": {
+      "name": "Search Button",
+      "comment": "Search Button",
+      "locator": "//div[contains(@class, 'search')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_feedback": {
+      "name": "Feedback Button",
+      "comment": "Feedback Button",
+      "locator": "//div[contains(@class, 'uil-feedback ')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_side_menu": {
+      "name": "Side Menu",
+      "comment": "Side Menu",
+      "locator": "//div[contains(@class, 'uil-side-menu__menu_visible')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_feedback_slide": {
+      "name": "Feedback Slide Menu",
+      "comment": "Feedback Slide Menu",
+      "locator": "//div[contains(@class, 'uil-feedback uil-feedback_visible')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "User Menu Page": {
+    "user_menu_page_locator": {
+      "name": "User Menu Page",
+      "comment": "User Menu Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'UserMenu')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "user_menu": {
+      "name": "User Menu",
+      "comment": "User Menu",
+      "locator": "//div[contains(@class, 'uil-user-menu ')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_notifications": {
+      "name": "Notifications Button",
+      "comment": "Notifications Button",
+      "locator": "//a[contains(@class, 'uil-user-menu__notification')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_exit": {
+      "name": "Exit Button",
+      "comment": "Exit Button",
+      "locator": "//a[contains(@class, 'uil-user-menu__logout')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Tabs Page": {
+    "tabs_page_locator": {
+      "name": "Tabs Page",
+      "comment": "Tabs Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Tabs')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "horizontal_tab": {
+      "name": "Horizontal Tab",
+      "comment": "Horizontal Tab",
+      "locator": "//div[not(contains(@class, 'vertical')) and contains(@class, 'uil-tabs_without-scrolling-arrows')]//div[contains(@class, 'ant-tabs-nav-container') and not(contains(@class, 'scroll'))]//div[@role='tab']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "vertical_tab": {
+      "name": "Vertical Tab",
+      "comment": "Vertical Tab",
+      "locator": "//div[contains(@class, 'vertical') and contains(@class, 'uil-tabs_without-scrolling-arrows')]//div[contains(@class, 'ant-tabs-nav-container') and not(contains(@class, 'scroll'))]//div[@role='tab']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "horizontal_tab_scroll": {
+      "name": "Horizontal Tab Scroll",
+      "comment": "Horizontal Tab Scroll",
+      "locator": "//div[not (contains(@class, 'vertical')) and contains(@class, 'uil-tabs')]//div[contains(@class, 'ant-tabs-nav-container') and contains(@class, 'scroll')]//div[@role='tab']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "vertical_tab_scroll": {
+      "name": "Vertical Tab Scroll",
+      "comment": "Vertical Tab Scroll",
+      "locator": "//div[contains(@class, 'vertical') and contains(@class, 'uil-tabs')]//div[contains(@class, 'ant-tabs-nav-container') and contains(@class, 'scroll')]//div[@role='tab']",
+      "search_cond": "xpath"
+    },
+    "btn_scroll_left_hor": {
+      "name": "Horizontal Scroll Left button",
+      "comment": "Horizontal Scroll Left button",
+      "locator": "//div[not (contains(@class, 'vertical')) and contains(@class, 'uil-tabs')]//div[contains(@class, 'ant-tabs-nav-container') and contains(@class, 'scroll')]//span[contains(@class, 'ant-tabs-tab-prev')]",
+      "search_cond": "xpath"
+    },
+    "btn_scroll_right_hor": {
+      "name": "Horizontal Scroll Right button",
+      "comment": "Horizontal Scroll Right button",
+      "locator": "//div[not (contains(@class, 'vertical')) and contains(@class, 'uil-tabs')]//div[contains(@class, 'ant-tabs-nav-container') and contains(@class, 'scroll')]//span[contains(@class, 'ant-tabs-tab-next')]",
+      "search_cond": "xpath"
+    },
+    "btn_scroll_up_vert": {
+      "name": "Vertical Scroll Up button",
+      "comment": "Horizontal Scroll Up button",
+      "locator": "//div[contains(@class, 'vertical') and contains(@class, 'uil-tabs')]//div[contains(@class, 'ant-tabs-nav-container') and contains(@class, 'scroll')]//span[contains(@class, 'ant-tabs-tab-prev')]",
+      "search_cond": "xpath"
+    },
+    "btn_scroll_down_vert": {
+      "name": "Vertical Scroll Down button",
+      "comment": "Horizontal Scroll Down button",
+      "locator": "//div[contains(@class, 'vertical') and contains(@class, 'uil-tabs')]//div[contains(@class, 'ant-tabs-nav-container') and contains(@class, 'scroll')]//span[contains(@class, 'ant-tabs-tab-next')]",
+      "search_cond": "xpath"
+    }
+  },
+  "View All Button Page": {
+    "view_all_button_page_locator": {
+      "name": "View All Button Page",
+      "comment": "View All Button Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'ViewAllButton')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_view_all": {
+      "name": "View All Button",
+      "comment": "View All Button",
+      "locator": "//button//div[contains(@class, 'ant-card ')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Alert Page": {
+    "alert_page_locator": {
+      "name": "Alert Page",
+      "comment": "Alert Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Alert')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "alert": {
+      "name": "Alert",
+      "comment": "Alert",
+      "locator": "//button[contains(@class, 'uil-alert')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_close": {
+      "name": "Close Button",
+      "comment": "Close Button",
+      "locator": "//button[contains(@class, 'uil-alert')]//i[contains(@class, 'close')] ",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Notification Page": {
+    "notification_page_locator": {
+      "name": "Notification Page",
+      "comment": "Notification Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Notification')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "notification": {
+      "name": "notification",
+      "comment": "notification",
+      "locator": "//button[contains(@class, 'notification')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "icon": {
+      "name": "Icon",
+      "comment": "Icon",
+      "locator": "//button[contains(@class, 'notification')]//div[contains(@class, 'uil-notification')]//i",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Cookie Tray Page": {
+    "cookie_tray_page_locator": {
+      "name": "Cookie Tray Page",
+      "comment": "Cookie Tray Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'CookieTray')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "cookie_tray": {
+      "name": "cookie_tray",
+      "comment": "cookie_tray",
+      "locator": "//div[contains(@class, 'cookie-tray ')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "message": {
+      "name": "message",
+      "comment": "message",
+      "locator": "//div[contains(@class, 'cookie-tray ')]//span[contains(@class, 'cookie-tray__message')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "link": {
+      "name": "link",
+      "comment": "link",
+      "locator": "//div[contains(@class, 'cookie-tray ')]//a[contains(@class, 'cookie-tray__message-link')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "button": {
+      "name": "button",
+      "comment": "button",
+      "locator": "//div[contains(@class, 'cookie-tray ')]//button[contains(@class, 'uil-cookie-tray__got-it')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Notification List Page": {
+    "notification_list_page_locator": {
+      "name": "Notification List  Page",
+      "comment": "Notification List Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'NotificationList')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "notification_list": {
+      "name": "Notification List",
+      "comment": "Notification List",
+      "locator": "//div[contains(@class, 'notification-list')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "icon": {
+      "name": "Notification icon",
+      "comment": "Notification icon",
+      "locator": "//div[contains(@class, 'notification-list')]//button[contains(@class, 'notification')]//i[contains(@class, 'notification__icon')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_explore_all": {
+      "name": "Explore More button",
+      "comment": "Explore More button",
+      "locator": "//div[contains(@class, 'notification-list')]//button[contains(@class, 'notification')]//i[contains(@class, 'icon-arrow_forward')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Action Card Page": {
+    "action_card_page_locator": {
+      "name": "Action Card  Page",
+      "comment": "Action Card Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'ActionCard')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "action_card": {
+      "name": "Action Card",
+      "comment": "Action Card",
+      "locator": "//div[contains(@class, 'action-card')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_header_action": {
+      "name": "Header Action",
+      "comment": "Header Action",
+      "locator": "//div[contains(@class, 'action-card')]//div[contains(@class, 'header-action')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_header_content": {
+      "name": "Header Content",
+      "comment": "Header Content",
+      "locator": "//div[contains(@class, 'action-card')]//div[contains(@class, 'header-text-only')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_body_description": {
+      "name": "Body Description",
+      "comment": "Body Description",
+      "locator": "//div[contains(@class, 'action-card')]//div[contains(@class, 'body-description')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_start_now": {
+      "name": "Start Now Button",
+      "comment": "Start Now Button",
+      "locator": "//div[contains(@class, 'action-card')]//button[contains(@class, 'footer-button__action')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Appointment Card Page": {
+    "appointment_card_page_locator": {
+      "name": "Appointment Card  Page",
+      "comment": "Appointment Card Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'AppointmentCard')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "appointment_card": {
+      "name": "Appointment Card",
+      "comment": "Appointment Card",
+      "locator": "//div[contains(@class, 'appointment-card')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_header_content": {
+      "name": "Header Content",
+      "comment": "Header Content",
+      "locator": "//div[contains(@class, 'appointment-card')]//div[contains(@class, 'header-profile__text-title')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_body_header": {
+      "name": "Body Header",
+      "comment": "Body Header",
+      "locator": "//div[contains(@class, 'appointment-card')]//span[contains(@class, 'body-icon-text')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_change": {
+      "name": "Change Button",
+      "comment": "Change Button",
+      "locator": "//div[contains(@class, 'appointment-card')]//button[contains(@class, 'footer-button__action')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Article Card Page": {
+    "article_card_page_locator": {
+      "name": "Article Card  Page",
+      "comment": "Article Card Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'ArticleCard')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "article_card": {
+      "name": "Article Card",
+      "comment": "Article Card",
+      "locator": "//div[contains(@class, 'article-card')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_image": {
+      "name": "Background Image",
+      "comment": "Background Image",
+      "locator": "//div[contains(@class, 'article-card')]//div[contains(@class, 'header-hero_with-bg')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_title": {
+      "name": "Title",
+      "comment": "Title",
+      "locator": "//div[contains(@class, 'article-card')]//div[contains(@class, 'header-text-only')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_body": {
+      "name": "Body Description",
+      "comment": "Body Description",
+      "locator": "//div[contains(@class, 'article-card')]//div[contains(@class, 'card-body-description')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_read": {
+      "name": "Read Article Button",
+      "comment": "Read Article Button",
+      "locator": "//div[contains(@class, 'article-card')]//button[contains(@class, 'card-footer-button__action')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Card Page": {
+    "card_page_locator": {
+      "name": "Card  Page",
+      "comment": "Card Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Card')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "card": {
+      "name": "Card",
+      "comment": "Card",
+      "locator": "//div[contains(@class, 'ant-card-bordered')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_image": {
+      "name": "Background Image",
+      "comment": "Background Image",
+      "locator": "//div[contains(@class, 'ant-card-bordered')]//div[contains(@class, 'uil-card__image')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_title": {
+      "name": "Title",
+      "comment": "Title",
+      "locator": "//div[contains(@class, 'ant-card-bordered')]//*[contains(text(), 'Action Type')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_body": {
+      "name": "Body Description",
+      "comment": "Body Description",
+      "locator": "//div[contains(@class, 'ant-card-bordered')]//p[contains(text(), 'Lorem')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_view": {
+      "name": "View Journey Button",
+      "comment": "Read Article Button",
+      "locator": "//div[contains(@class, 'ant-card-bordered')]//button[contains (@class, 'button_with-icon')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Compare Card Page": {
+    "compare_card_page_locator": {
+      "name": "Compare Card  Page",
+      "comment": "Compare Card Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'CompareCard')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "compare_card": {
+      "name": "Card",
+      "comment": "Card",
+      "locator": "//div[contains(@class, 'qa-compare-card')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_criteria": {
+      "name": "Criteria element",
+      "comment": "Criteria element",
+      "locator": "//div[contains(@class, 'qa-compare-card')]//div[contains(@class, 'criterias')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_title": {
+      "name": "Title",
+      "comment": "Title",
+      "locator": "//div[contains(@class, 'qa-compare-card')]//div[contains(@class, 'header-text-only')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_body": {
+      "name": "Body Description",
+      "comment": "Body Description",
+      "locator": "//div[contains(@class, 'qa-compare-card')]//div[contains(@class, 'uil-card-body-description')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "chkbx_compare": {
+      "name": "Compare Checkbox input",
+      "comment": "Compare Checkbox input",
+      "locator": "//div[contains(@class, 'qa-compare-card')]//div[contains(@class, 'uil-card-footer')]//input[contains(@class, 'ant-checkbox')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_compare": {
+      "name": "Compare Button",
+      "comment": "Compare Button",
+      "locator": "//div[contains(@class, 'qa-compare-card')]//div[contains(@class, 'uil-card-footer')]//span[contains(@class, 'ant-checkbox')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Contact Card Page": {
+    "contact_card_page_locator": {
+      "name": "Contact Card  Page",
+      "comment": "Contact Card Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'ContactCard')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "contact_card": {
+      "name": "Contact Card",
+      "comment": "Contact Card",
+      "locator": "//div[contains(@class, 'qa-contact-card')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_area": {
+      "name": "Area element",
+      "comment": "Criteria element",
+      "locator": "//div[contains(@class, 'card-body-icon-text')]//i[contains(@class, 'location')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_title": {
+      "name": "Title",
+      "comment": "Title",
+      "locator": "//div[contains(@class, 'qa-contact-card')]//div[contains(@class, 'uil-card-header-profile__text-title')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_body": {
+      "name": "Body Description",
+      "comment": "Body Description",
+      "locator": "//div[contains(@class, 'qa-contact-card')]//div[contains(@class, 'uil-card-body-description')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_phone": {
+      "name": "Phone element",
+      "comment": "Phone element",
+      "locator": "//div[contains(@class, 'card-body-icon-text')]//i[contains(@class, 'phone')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_schedule": {
+      "name": "Schedule element",
+      "comment": "Schedule element",
+      "locator": "//div[contains(@class, 'card-body-icon-text')]//i[contains(@class, 'schedule')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_website": {
+      "name": "Website element",
+      "comment": "Website element",
+      "locator": "//div[contains(@class, 'card-body-icon-text')]//i[contains(@class, 'language')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_map": {
+      "name": "Map element",
+      "comment": "Map element",
+      "locator": "//*[name()='svg']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Event Card Page": {
+    "event_card_page_locator": {
+      "name": "Event Card  Page",
+      "comment": "Event Card Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'EventCard')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "event_card": {
+      "name": "Event Card",
+      "comment": "Event Card",
+      "locator": "//div[contains(@class, 'qa-event-card')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_date": {
+      "name": "Date element",
+      "comment": "Date element",
+      "locator": "//div[contains(@class, 'qa-event-card')]//i[contains(@class, 'event_available')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_title": {
+      "name": "Title",
+      "comment": "Title",
+      "locator": "//div[contains(@class, 'qa-event-card')]//div[contains(@class, 'uil-card-header-text-only')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_body": {
+      "name": "Body Description",
+      "comment": "Body Description",
+      "locator": "//div[contains(@class, 'qa-event-card')]//div[contains(@class, 'uil-card-body-description')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_learn_more": {
+      "name": "Learn More Button",
+      "comment": "Learn More Button",
+      "locator": "//div[contains(@class, 'qa-event-card')]//button[contains(@class, 'footer-button__action')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_image": {
+      "name": "Image label",
+      "comment": "Image label",
+      "locator": "//div[contains(@class, 'qa-event-card')]//div[contains(@class, 'header-hero_with-bg')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Location Card Page": {
+    "location_card_page_locator": {
+      "name": "Location Card  Page",
+      "comment": "Location Card Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'LocationCard')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "location_card": {
+      "name": "Location Card",
+      "comment": "Location Card",
+      "locator": "//div[contains(@class, 'qa-location-card')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_hero_title": {
+      "name": "Hero title",
+      "comment": "Hero Title",
+      "locator": "//div[contains(@class, 'qa-location-card')]//span[contains(@class, 'header-hero__title')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_title": {
+      "name": "Title",
+      "comment": "Title",
+      "locator": "//div[contains(@class, 'qa-location-card')]//div[contains(@class, 'uil-card-header-text-only')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_body": {
+      "name": "Body Description",
+      "comment": "Body Description",
+      "locator": "//div[contains(@class, 'qa-location-card')]//div[contains(@class, 'uil-card-body-description')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_label": {
+      "name": "Label Button",
+      "comment": "Label Button",
+      "locator": "//div[contains(@class, 'qa-location-card')]//button[contains(@class, 'footer-button__action_with-arrow')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_image": {
+      "name": "Image label",
+      "comment": "Image label",
+      "locator": "//div[contains(@class, 'qa-location-card')]//div[contains(@class, 'header-hero_with-bg')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_price": {
+      "name": "Price label",
+      "comment": "Price label",
+      "locator": "//div[contains(@class, 'qa-location-card')]//span[contains(@class, 'body-description-list')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Logged In Profile Card Page": {
+    "logged_in_profile_card_page_locator": {
+      "name": "Logged in Profile Card  Page",
+      "comment": "Logged in Profile Card  Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'LoggedInProfileCard')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "logged_in_profile_card": {
+      "name": "Logged in Profile Card",
+      "comment": "Logged in Profile Card",
+      "locator": "//div[contains(@class, 'qa-logged-in-profile-card')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_profile": {
+      "name": "Profile Button",
+      "comment": "Profile Button",
+      "locator": "//div[contains(@class, 'qa-logged-in-profile-card')]//a[contains(@class, 'profile-card__header')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_locker": {
+      "name": "Locker Button",
+      "comment": "Locker Button",
+      "locator": "//div[contains(@class, 'qa-logged-in-profile-card')]//a[contains(@class, 'locker')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_logout": {
+      "name": "Logout Button",
+      "comment": "Logout Button",
+      "locator": "//div[contains(@class, 'qa-logged-in-profile-card')]//a[contains(@class, 'logout')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_not_found": {
+      "name": "Not Found label",
+      "comment": "Not Found label",
+      "locator": "//div[contains(@class, 'uil-not-found__error')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Profile Card Page": {
+    "profile_card_page_locator": {
+      "name": "Profile Card  Page",
+      "comment": "Profile Card  Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'ProfileCard')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "profile_card": {
+      "name": "Profile Card",
+      "comment": "in Profile Card",
+      "locator": "//div[contains(@class, 'qa-profile-card')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_profile_avatar": {
+      "name": "Profile Avatar",
+      "comment": "Profile Avatar",
+      "locator": "//div[contains(@class, 'qa-profile-card')]//div[contains(@class, 'profile__avatar')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_title": {
+      "name": "Title",
+      "comment": "Title",
+      "locator": "//div[contains(@class, 'qa-profile-card')]//div[contains(@class, 'profile__text-title')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_subtitle": {
+      "name": "Subtitle",
+      "comment": "Subtitle",
+      "locator": "//div[contains(@class, 'qa-profile-card')]//div[contains(@class, 'profile__text-subtitle')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_body": {
+      "name": "Body",
+      "comment": "Body",
+      "locator": "//div[contains(@class, 'qa-profile-card')]//div[contains(@class, 'card-body-description')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_learn_more": {
+      "name": "Learn More Button",
+      "comment": "Learn More Button",
+      "locator": "//div[contains(@class, 'qa-profile-card')]//button[contains(@class, 'footer-button__action')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Plan Card Page": {
+    "plan_card_page_locator": {
+      "name": "Plan Card  Page",
+      "comment": "Plan Card  Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'PlanCard')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "plan_card": {
+      "name": "Plan Card",
+      "comment": "Plan Card",
+      "locator": "//article[contains(@class, 'uil-plan-card')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_title": {
+      "name": "Title",
+      "comment": "Title",
+      "locator": "//article[contains(@class, 'uil-plan-card')]//span[contains(@class, 'checkbox-label')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_body": {
+      "name": "Body",
+      "comment": "Body",
+      "locator": "//article[contains(@class, 'uil-plan-card')]//div[contains(@class, 'uil-plan-card__item')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_apply": {
+      "name": "Apply Button",
+      "comment": "Apply Button",
+      "locator": "//article[contains(@class, 'uil-plan-card')]//button[contains(@class, 'uil-plan-card__button')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_plan": {
+      "name": "Plan Button",
+      "comment": "Plan Button",
+      "locator": "//article[contains(@class, 'uil-plan-card')]//i",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Small Card Page": {
+    "small_card_page_locator": {
+      "name": "Small Card  Page",
+      "comment": "Small Card  Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'SmallCard')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "small_card": {
+      "name": "Small Card",
+      "comment": "Small Card",
+      "locator": "//div[contains(@class, 'qa-small-card')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_card_name": {
+      "name": "Profile Avatar",
+      "comment": "Profile Avatar",
+      "locator": "//div[contains(@class, 'qa-small-card')]//*[contains(@class, 'small-card__name')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_card_desc": {
+      "name": "Title",
+      "comment": "Title",
+      "locator": "//div[contains(@class, 'qa-small-card')]//*[contains(@class, 'small-card__desc')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_learn_more": {
+      "name": "Learn More Button",
+      "comment": "Learn More Button",
+      "locator": "//div[contains(@class, 'qa-small-card')]//button[contains(@class, 'small-card__button')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Small Description Card Page": {
+    "small_description_card_page_locator": {
+      "name": "Small Description Card  Page",
+      "comment": "Small Description Card  Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'SmallDescriptionCard')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "small_description_card": {
+      "name": "Small Description Card",
+      "comment": "Small Description Card",
+      "locator": "//div[contains(@class, 'qa-small-description-card')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_title": {
+      "name": "Title",
+      "comment": "Title",
+      "locator": "//div[contains(@class, 'qa-small-description-card')]//span[contains(@class, 'header-text-only__title')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_body_desc": {
+      "name": "Body description",
+      "comment": "Body description",
+      "locator": "//div[contains(@class, 'qa-small-description-card')]//div[contains(@class, 'card-body-description')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_learn_more": {
+      "name": "Learn More Button",
+      "comment": "Learn More Button",
+      "locator": "//div[contains(@class, 'qa-small-description-card')]//button[contains(@class, 'card-footer-button__action_with-arrow')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Summary Card Page": {
+    "summary_card_page_locator": {
+      "name": "Summary Card  Page",
+      "comment": "Summary Card  Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'SummaryCard')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "summary_card": {
+      "name": "Small Card",
+      "comment": "Small Card",
+      "locator": "//div[contains(@class, 'qa-summary-card')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_title": {
+      "name": "Title",
+      "comment": "Title",
+      "locator": "//div[contains(@class, 'qa-summary-card')]//span[contains(@class, 'header-text-only__title')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_subtitle": {
+      "name": "SubTitle",
+      "comment": "SubTitle",
+      "locator": "//div[contains(@class, 'qa-summary-card')]//span[contains(@class, 'header-text-only__subtitle')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_desc_list": {
+      "name": "List of description",
+      "comment": "List of description",
+      "locator": "//div[contains(@class, 'qa-summary-card')]//div[contains(@class, 'card-body-description-list_hoz')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_desc": {
+      "name": "Description label",
+      "comment": "Description Label",
+      "locator": "//div[contains(@class, 'qa-summary-card')]//div[contains(@class, 'card-body-description-list_ver')]//span[not (contains(@class, 'bold'))]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_desc_large": {
+      "name": "Description",
+      "comment": "Description",
+      "locator": "//div[contains(@class, 'qa-summary-card')]//div[contains(@class, 'card-body-description-list_ver')]//span[contains(@class, 'bold')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Fact Sheet Card Page": {
+    "fact_sheet_card_page_locator": {
+      "name": "Fact Sheet  Page",
+      "comment": "Fact Sheet  Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'FactSheetCard')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "fact_sheet_card": {
+      "name": "Fact Sheet Card",
+      "comment": "Fact Sheet Card",
+      "locator": "//div[contains(@class, 'qa-fact-sheet-card')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_title": {
+      "name": "Title",
+      "comment": "Title",
+      "locator": "//div[contains(@class, 'qa-fact-sheet-card')]//div[contains(@class, 'uil-card-header-text-only')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_body": {
+      "name": "Body Description",
+      "comment": "Body Description",
+      "locator": "//div[contains(@class, 'qa-fact-sheet-card')]//div[contains(@class, 'uil-card-body-description')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_arrow": {
+      "name": "Arrow Button",
+      "comment": "Arrow Button",
+      "locator": "//div[contains(@class, 'qa-fact-sheet-card')]//button[contains(@class, 'footer-button__action_with-arrow')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_image": {
+      "name": "Image label",
+      "comment": "Image label",
+      "locator": "//div[contains(@class, 'qa-fact-sheet-card')]//div[contains(@class, 'header-hero_with-bg')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Label Content Card Page": {
+    "label_content_card_page_locator": {
+      "name": "Label Content Page",
+      "comment": "Label Content Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'LabelContentCard')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "label_content_card": {
+      "name": "Label Content Card",
+      "comment": "Label Content Card",
+      "locator": "//div[contains(@class, 'qa-label-content-card')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_title": {
+      "name": "Title",
+      "comment": "Title",
+      "locator": "//div[contains(@class, 'qa-label-content-card')]//div[contains(@class, 'uil-card-header-text-only')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_body": {
+      "name": "Body Description",
+      "comment": "Body Description",
+      "locator": "//div[contains(@class, 'qa-label-content-card')]//div[contains(@class, 'uil-card-body-description')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Composite List Page": {
+    "composite_list_page_locator": {
+      "name": "Composite List Page",
+      "comment": "Composite List Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'CompositeList')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "list_heading": {
+      "name": "List Heading",
+      "comment": "List Heading",
+      "locator": "(//div[contains(@class,'qa-composite-list ')])[2]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_title_heading": {
+      "name": "List Heading title",
+      "comment": "List Heading title",
+      "locator": "(//div[contains(@class,'qa-composite-list ')])[2]//span[contains(@class, 'description-item__title')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_description_heading": {
+      "name": "List Heading description",
+      "comment": "List Heading description ",
+      "locator": "(//div[contains(@class,'qa-composite-list ')])[2]//span[contains(@class, 'description-item__text')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_complete_heading": {
+      "name": "Complete Button",
+      "comment": "Complete Button",
+      "locator": "(//div[contains(@class,'qa-composite-list ')])[2]//i",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "chckbx_complete_heading": {
+      "name": "Complete Checkbox",
+      "comment": "Complete Checkbox",
+      "locator": "(//div[contains(@class,'qa-composite-list ')])[2]//label[contains(@class, 'checkbox')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_arrow_heading": {
+      "name": "Arrow Button",
+      "comment": "Arrow Button",
+      "locator": "(//div[contains(@class,'qa-composite-list ')])[2]//button[contains(@class, 'footer')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "to_do_list": {
+      "name": "To Do List",
+      "comment": "To Do List",
+      "locator": "(//div[contains(@class,'qa-composite-list ')])[3]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_title_todo": {
+      "name": "List ToDO title",
+      "comment": "List ToDo title",
+      "locator": "(//div[contains(@class,'qa-composite-list ')])[3]//span[contains(@class, 'to-do-item__checkbox-label')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_complete_todo": {
+      "name": "Complete Button",
+      "comment": "Complete Button",
+      "locator": "(//div[contains(@class,'qa-composite-list ')])[3]//i",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "chckbx_complete_todo": {
+      "name": "Complete Checkbox",
+      "comment": "Complete Checkbox",
+      "locator": "(//div[contains(@class,'qa-composite-list ')])[3]//label[contains(@class, 'checkbox')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_arrow": {
+      "name": "Arrow Button",
+      "comment": "Arrow Button",
+      "locator": "(//div[contains(@class,'qa-composite-list ')])[3]//button[contains(@class, 'footer')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "multi_select_list": {
+      "name": "MultiSelect List",
+      "comment": "MultiSelect List",
+      "locator": "(//div[contains(@class,'qa-composite-list ')])[4]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_title_multi": {
+      "name": "Multi Select List title",
+      "comment": "Multi Select List title",
+      "locator": "(//div[contains(@class,'qa-composite-list ')])[4]//*[contains(@class, 'uil-composite-list__title')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_item_title_multi": {
+      "name": "Multi Select List item title",
+      "comment": "Multi Select List item title",
+      "locator": "(//div[contains(@class,'qa-composite-list ')])[4]//span[contains(@class, 'uil-select-item__title')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_item_description_multi": {
+      "name": "Multi Select List item description",
+      "comment": "Multi Select List item description",
+      "locator": "(//div[contains(@class,'qa-composite-list ')])[4]//span[contains(@class, 'uil-select-item__description')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_complete_multi": {
+      "name": "Complete Button",
+      "comment": "Complete Button",
+      "locator": " (//div[contains(@class,'qa-composite-list ')])[4]//i",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "chckbx_complete_multi": {
+      "name": "Complete Checkbox",
+      "comment": "Complete Checkbox",
+      "locator": "(//div[contains(@class,'qa-composite-list ')])[4]//label[contains(@class, 'checkbox')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "single_select_list": {
+      "name": "SingleSelect List",
+      "comment": "SingkleSelect List",
+      "locator": "(//div[contains(@class,'qa-composite-list ')])[5]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_title_single": {
+      "name": "Single Select List title",
+      "comment": "Single Select List title",
+      "locator": "(//div[contains(@class,'qa-composite-list ')])[5]//*[contains(@class, 'uil-composite-list__title')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_item_title_single": {
+      "name": "Single Select List item title",
+      "comment": "Single Select List item title",
+      "locator": "(//div[contains(@class,'qa-composite-list ')])[5]//span[contains(@class, 'uil-select-item__title')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_item_description_single": {
+      "name": "Single Select List item description",
+      "comment": "Single Select List item description",
+      "locator": "(//div[contains(@class,'qa-composite-list ')])[5]//span[contains(@class, 'uil-select-item__description')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_complete_single": {
+      "name": "Complete Button",
+      "comment": "Complete Button",
+      "locator": " (//div[contains(@class,'qa-composite-list ')])[5]//i",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "chckbx_complete_single": {
+      "name": "Complete Checkbox",
+      "comment": "Complete Checkbox",
+      "locator": "(//div[contains(@class,'qa-composite-list ')])[5]//label[contains(@class, 'checkbox')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Vertical Stepper Page": {
+    "vertical_stepper_page_locator": {
+      "name": "Vertical Stepper Page",
+      "comment": " VerticalStepper Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'VerticalStepper')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "vertical_stepper": {
+      "name": "Vertical Stepper",
+      "comment": "Vertical Stepper",
+      "locator": "//*[contains(@class, 'uil-expanded-stepper-container__header')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "step_in_progress": {
+      "name": "Step In Progress",
+      "comment": "Step In Progress",
+      "locator": "//button[contains(@class, 'stepper_active')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "step_complete": {
+      "name": "Complete Step",
+      "comment": "Complete Step",
+      "locator": "//button[contains(@class, 'stepper_complete')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "step_postponed": {
+      "name": "Postponed Step",
+      "comment": "Postponed Step",
+      "locator": "//button[contains(@class, 'stepper_inactive')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_current_step": {
+      "name": "Current Step",
+      "comment": "Current Step",
+      "locator": "//button[contains(@class, 'stepper_selected')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "step_tmplt": {
+      "name": " Step Template {}",
+      "comment": " Step Template",
+      "locator": "//span[contains(text(), '{}')]/..",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Stepper Page": {
+    "stepper_page_locator": {
+      "name": "Stepper Page",
+      "comment": "Stepper Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Stepper')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "stepper": {
+      "name": "Stepper",
+      "comment": "Stepper",
+      "locator": "//div[contains(@class, 'qa-stepper')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "step_in_progress": {
+      "name": "Step In Progress",
+      "comment": "Step In Progress",
+      "locator": "//div[contains(@class, 'qa-stepper')]//div[contains(@class, 'stepper__step_process')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "step_complete": {
+      "name": "Complete Step",
+      "comment": "Complete Step",
+      "locator": "//div[contains(@class, 'qa-stepper')]//div[contains(@class, 'stepper__step_finish')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "step_postponed": {
+      "name": "Postponed Step",
+      "comment": "Postponed Step",
+      "locator": "//div[contains(@class, 'qa-stepper')]//div[contains(@class, 'stepper__step_wait')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Social Share Panel Page": {
+    "social_share_panel_page_locator": {
+      "name": "Social Share Panel Page",
+      "comment": "Social Share Panel Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'SocialSharePanel')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "social_share_panel": {
+      "name": "Social Share Panel",
+      "comment": "Social Share Panel",
+      "locator": "//div[contains(@class, 'qa-social-share-panel')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_apple": {
+      "name": "Apple Button",
+      "comment": "Apple Button",
+      "locator": "//button[contains(@aria-label, 'apple')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_envelope": {
+      "name": "Envelope Button",
+      "comment": "Envelope Button",
+      "locator": "//button[contains(@aria-label, 'envelope') and not(contains(@aria-label, '_o'))]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_envelope_0": {
+      "name": "Envelope Button",
+      "comment": "Envelope Button",
+      "locator": "//button[contains(@aria-label, 'envelope_o')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_facebook": {
+      "name": "Facebook Button",
+      "comment": "Facebook Button",
+      "locator": "//button[contains(@aria-label, 'facebook')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_google": {
+      "name": "Google Button",
+      "comment": "Google Button",
+      "locator": "//button[contains(@aria-label, 'google')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_more": {
+      "name": "More Button",
+      "comment": "More Button",
+      "locator": "//button[contains(@aria-label, 'more')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Table Page": {
+    "table_page_locator": {
+      "name": "Table Page",
+      "comment": "Table Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Table')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "table": {
+      "name": "Table",
+      "comment": "Table",
+      "locator": "//div[contains(@class, 'qa-table')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_all": {
+      "name": "All Button",
+      "comment": "All Button",
+      "locator": "//div[contains(@class, 'qa-table')]//thead//span[contains(@class, 'checkbox')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_enabled": {
+      "name": "Enabled Button",
+      "comment": "Enabled Button",
+      "locator": "//div[contains(@class, 'qa-table')]//td//span[contains(@class, 'ant-checkbox') and not(contains(@class, 'disabled')) and not(contains(@class, 'inner'))]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_disabled": {
+      "name": "Envelope Button",
+      "comment": "Envelope Button",
+      "locator": "//div[contains(@class, 'qa-table')]//span[contains(@class, 'ant-checkbox-disabled')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Tag Page": {
+    "tag_page_locator": {
+      "name": "Tag Page",
+      "comment": "Tag Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Tag')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "tag": {
+      "name": "Tag",
+      "comment": "Tag",
+      "locator": "//div[contains(@class, 'qa-tag')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_close": {
+      "name": "Close Button",
+      "comment": "Close Button",
+      "locator": "//div[contains(@class, 'qa-tag')]//i[contains(@class, 'anticon')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Badge Page": {
+    "badge_page_locator": {
+      "name": "Badge Page",
+      "comment": "Badge Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Badge')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "badge_count": {
+      "name": "Count Badge",
+      "comment": "Count Badge",
+      "locator": "//span[contains(@class, 'qa-badge')]//sup[contains(@class, 'badge-count') and @title='5']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "badge_multiple": {
+      "name": "Multiple Badge",
+      "comment": "Multiple Badge",
+      "locator": "//span[contains(@class, 'qa-badge')]//sup[contains(@class, 'badge-count') and @title='25']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "badge_info": {
+      "name": "Info Badge",
+      "comment": "Info Badge",
+      "locator": "//span[contains(@class, 'uil-badge_info')]//sup[contains(@class, 'badge-count')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Not Found Page": {
+    "not_found_page_locator": {
+      "name": "Not Found Page",
+      "comment": "Not Found Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'NotFound')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "not_found": {
+      "name": "Not Found",
+      "comment": "Not Found",
+      "locator": "//div[contains(@class, 'qa-not-found')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_page": {
+      "name": "Multiple Badge",
+      "comment": "Multiple Badge",
+      "locator": "//div[contains(@class, 'qa-not-found')]//*[contains(@class, 'qa-not-found-title')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_code": {
+      "name": "Info Badge",
+      "comment": "Info Badge",
+      "locator": "//div[contains(@class, 'qa-not-found')]//div[contains(@class, 'qa-not-found-error-text')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_image": {
+      "name": "Info Badge",
+      "comment": "Info Badge",
+      "locator": "//div[contains(@class, 'qa-not-found')]//img[contains(@alt, 'not found')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_back": {
+      "name": "Info Badge",
+      "comment": "Info Badge",
+      "locator": "//div[contains(@class, 'qa-not-found')]//a[contains(@class, 'not-found-button')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Hero Page": {
+    "hero_page_locator": {
+      "name": "Hero Page",
+      "comment": "Hero Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Hero')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "hero_with_image": {
+      "name": "Hero With Image",
+      "comment": "Hero With image",
+      "locator": "//div[contains(@class, 'uil-hero_with-image')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_image_i": {
+      "name": "Hero Image",
+      "comment": "Hero Image",
+      "locator": "//div[contains(@class, 'uil-hero_with-image')]//div[contains(@class, 'uil-hero__background')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_title_i": {
+      "name": "Title Label",
+      "comment": "Title Label",
+      "locator": "//div[contains(@class, 'uil-hero_with-image')]//div[contains(@class, 'uil-hero__title')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_subtitle_i": {
+      "name": "SubTitle Label",
+      "comment": "SubTitle Label",
+      "locator": "//div[contains(@class, 'uil-hero_with-image')]//div[contains(@class, 'uil-hero__subtitle')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "hero_no_image": {
+      "name": "Hero Without Image",
+      "comment": "Hero Without image",
+      "locator": "//div[contains(@class, 'qa-hero ') and not(contains(@class, 'image'))]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_image": {
+      "name": "Hero Image",
+      "comment": "Hero Image",
+      "locator": "//div[contains(@class, 'qa-hero ') and not(contains(@class, 'image'))]//div[contains(@class, 'uil-hero__background')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_title": {
+      "name": "Title Label",
+      "comment": "Title Label",
+      "locator": "//div[contains(@class, 'qa-hero ') and not(contains(@class, 'image'))]//div[contains(@class, 'uil-hero__title')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_subtitle": {
+      "name": "SubTitle Label",
+      "comment": "SubTitle Label",
+      "locator": "//div[contains(@class, 'qa-hero ') and not(contains(@class, 'image'))]//div[contains(@class, 'uil-hero__subtitle')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Progress Bar Page": {
+    "progress_bar_page_locator": {
+      "name": "Progress Bar Page",
+      "comment": "Progress Bar Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Progress Bar')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "progress_bar": {
+      "name": "Progress Bar",
+      "comment": "Progress Bar",
+      "locator": "//div[contains(@class, 'progress-line')]//div[contains(@class, 'progress-bg')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Service Page": {
+    "service_page_locator": {
+      "name": "Service Page",
+      "comment": "Service Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Service')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "service_nf": {
+      "name": "Not Found Service",
+      "comment": "Not Found Service",
+      "locator": "//article[contains(@class, 'uil-service')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_image_nf": {
+      "name": "Image Label",
+      "comment": "Image Label",
+      "locator": "//article[contains(@class, 'uil-service')]//i[contains(@class, 'service__icon')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_title_nf": {
+      "name": "Title Label",
+      "comment": "Title Label",
+      "locator": "//article[contains(@class, 'uil-service')]//p[contains(@class, 'service__title')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_subtitle_nf": {
+      "name": "SubTitle Label",
+      "comment": "SubTitle Label",
+      "locator": "//article[contains(@class, 'uil-service')]//p[contains(@class, 'service__info')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_back_nf": {
+      "name": "Back button",
+      "comment": "Back Button",
+      "locator": "//article[contains(@class, 'uil-service')]//nav[contains(@class, 'service__nav')]//a[contains(@class, 'nav-link_prev')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Nav Link Page": {
+    "nav_link_page_locator": {
+      "name": "Nav Link Page",
+      "comment": "Nav Link Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'NavLink')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "nav_link": {
+      "name": "Nav Link",
+      "comment": "Nav Link",
+      "locator": "//div//a[contains(@class, 'nav-link')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_back": {
+      "name": "Back Button",
+      "comment": "Back Button",
+      "locator": "//div//a[contains(@class, 'nav-link_prev')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_forward": {
+      "name": "Forward Button",
+      "comment": "Forward Button",
+      "locator": "//div//a[contains(@class, 'nav-link_next')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_page": {
+      "name": "Page Button",
+      "comment": "Page Button",
+      "locator": "//div//a[contains(@class, 'uil-nav-link') and not(contains(@class, 'prev')) and not(contains(@class, 'next')) ]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Carousel Page": {
+    "carousel_page_locator": {
+      "name": "Carousel Page",
+      "comment": "Carousel Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Carousel')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "carousel_vertical": {
+      "name": "Horizontal Carousel",
+      "comment": "Horizontal Carousel",
+      "locator": "//div[contains(@style, 'inline-block')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_vertical_title": {
+      "name": "Back Button",
+      "comment": "Back Button",
+      "locator": "(//div[contains(@class, 'slick-active')]//div[contains(text(), 'Carousel Title')])[2]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_vertical_carousel": {
+      "name": "Forward Button",
+      "comment": "Forward Button",
+      "locator": "(//ul[contains(@class, 'dots')])[2]//li",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "carousel_horizontal": {
+      "name": "Horizontal Carousel",
+      "comment": "Horizontal Carousel",
+      "locator": "//div[contains(@style, 'inline-block')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_horizontal_title": {
+      "name": "Back Button",
+      "comment": "Back Button",
+      "locator": "(//div[contains(@class, 'slick-active')]//div[contains(text(), 'Carousel Title')])[1]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_horizontal_carousel": {
+      "name": "Forward Button",
+      "comment": "Forward Button",
+      "locator": "(//ul[contains(@class, 'dots')])[1]//li",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Date Time Picker Page": {
+    "date_time_picker_page_locator": {
+      "name": "Date Time Picker Page",
+      "comment": "Date Time Picker Page",
+      "locator": "//pre[contains(@class, 'dls-component-info__description')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "date_time_picker_left_scroll": {
+      "name": "Date Time Picker Left Scroll",
+      "comment": "Date Time Picker Left Scroll",
+      "locator": "//button[contains(@class,'panel__scroll-left')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "date_time_picker_right_scroll": {
+      "name": "Date Time Picker Right Scroll",
+      "comment": "Date Time Picker Right Scroll",
+      "locator": "//button[contains(@class,'panel__scroll-right')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "date_time_picker_enabled_time": {
+      "name": "Date Time Picker Time selector enabled",
+      "comment": "Date Time Picker Time selector enabled",
+      "locator": "//li[1]/button[contains(@class,'slot-picker')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "date_time_picker_disabled_time": {
+      "name": "Date Time Picker Time selector disabled",
+      "comment": "Date Time Picker Time selector disabled",
+      "locator": "//li[4]/button[contains(@class,'slot-picker')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "date_time_picker_day_carousel": {
+      "name": "Date Time Picker Day Carousel",
+      "comment": "Date Time Picker Day Carousel",
+      "locator": "//div[@role='none' and contains(@class,'scroll-panel')]/div[15]//div[contains(@class, 'day-number')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "date_time_picker_confirm_time": {
+      "name": "Date Time Picker Confirm Time",
+      "comment": "Date Time Picker Confirm Time",
+      "locator": "//button[contains(@class,'datetime-picker')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "list_of_dates": {
+      "name": "List of Dates available",
+      "comment": "List of Dates available",
+      "locator": "//div[@role='none' and contains(@class,'scroll-panel')]//div[contains(@class, 'day-number')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "date_time_set_date": {
+      "name": "Set Calendar Date",
+      "comment": "Set Calendar Date",
+      "locator": "//button[contains(@class,'calendar-popover')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Image Gallery Page": {
+    "image_gallery_page_locator": {
+      "name": "Image Gallery Page",
+      "comment": "Image Gallery Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'ImageGallery')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "image_gallery": {
+      "name": "Image Gallery",
+      "comment": "Image Gallery",
+      "locator": "//div[@class= 'uil-image-gallery']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_left": {
+      "name": "Back Button",
+      "comment": "Back Button",
+      "locator": "//button[@id='slider-prev']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_right": {
+      "name": "Forward Button",
+      "comment": "Forward Button",
+      "locator": "//button[@id='slider-next']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "btn_image": {
+      "name": "Horizontal Carousel",
+      "comment": "Horizontal Carousel",
+      "locator": "(//div[contains(@class, 'slider__track')]//img)[2]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "lbl_selected_image": {
+      "name": "Back Button",
+      "comment": "Back Button",
+      "locator": "//div[@role = 'presentation']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Spinner Page": {
+    "spinner_page_locator": {
+      "name": "Spinner Page",
+      "comment": "Spinner Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Spinner')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "spinner_default": {
+      "name": "Default Spinner",
+      "comment": "Default Spinner",
+      "locator": "//div[contains(@style, 'hover-color')]//div[contains(@class, 'uil-spinner_logo')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "spinner_circle": {
+      "name": "Circle Spinner",
+      "comment": "Circle Spinner",
+      "locator": "//div[contains(@class, 'uil-spinner_circle')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Time Picker Page": {
+    "time_picker_page_locator": {
+      "name": "Time Picker Page",
+      "comment": "Time Picker Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'TimePicker')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "time_picker_default": {
+      "name": "Time Picker Input Default View",
+      "comment": "Time Picker Input Default View",
+      "locator": "//div[contains(@class,'time-picker_default')][1]/span/input",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "time_picker_icon": {
+      "name": "Time Picker Input Icon",
+      "comment": "Time Picker Input Icon",
+      "locator": "//div[contains(@class,'time-picker_default')][1]//span[contains(@class,'picker-icon')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "time_picker_icon_clear": {
+      "name": "Time Picker Input Clear Icon",
+      "comment": "Time Picker Input Clear Icon",
+      "locator": "//a[contains(@class,'clear-btn')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "time_picker_disabled": {
+      "name": "Time Picker Input Disabled View",
+      "comment": "Time Picker Input Disabled View",
+      "locator": "//div[1]/div[contains(@class,'time-picker_disabled')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "time_picker_hours": {
+      "name": "Time Picker Input Hours",
+      "comment": "Time Picker Input Hours",
+      "locator": "//div[contains(@class,'time-picker-panel-select')][1]//li[contains(text(),'{}')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "time_picker_mins": {
+      "name": "Time Picker Input Mins",
+      "comment": "Time Picker Input Mins",
+      "locator": "//div[contains(@class,'time-picker-panel-select')][2]//li[contains(text(),'{}')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "time_combobox_dropdown": {
+      "name": "Time Picker Dropdown Combobox",
+      "comment": "Time Picker Dropdown Combobox",
+      "locator": "//div[contains(@class,'time-picker-panel-combobox')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Sidebar Page": {
+    "sidebar_page_locator": {
+      "name": "Sidebar Page",
+      "comment": "Sidebar Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Spinner')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "start_now_btn": {
+      "name": "Start Now Button",
+      "comment": "Start Now Button",
+      "locator": "//button[contains(@class,'uil-button')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "twitter_btn": {
+      "name": "Twitter Button",
+      "comment": "Twitter Button",
+      "locator": "//button[contains(@aria-label,'twitter')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "facebook_btn": {
+      "name": "Facebook Button",
+      "comment": "Facebook Button",
+      "locator": "//button[contains(@aria-label,'facebook')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "email_btn": {
+      "name": "Email Button",
+      "comment": "Email Button",
+      "locator": "//button[contains(@aria-label,'envelope')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "related_content_list": {
+      "name": "Related Content List",
+      "comment": "Related Content List",
+      "locator": "//div[contains(@class,'list_primary')][1]/dl[contains(@class,'list__item')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "related_journeys_list": {
+      "name": "Related Journey List",
+      "comment": "Related Journey List",
+      "locator": "//div[contains(@class,'list_primary')][2]/dl[contains(@class,'list__item')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "view_all_services_btn": {
+      "name": "Related Journey List",
+      "comment": "Related Journey List",
+      "locator": "//a[contains(@rel,'noopener')][1]/div[contains(@class,'view-all-button')][1]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "view_all_journeys_btn": {
+      "name": "Related Journey List",
+      "comment": "Related Journey List",
+      "locator": "//a[contains(@rel,'noopener')][2]/div[contains(@class,'view-all-button')][1]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+  },
+  "Form Page": {
+    "form_page_locator": {
+      "name": "Form Page Locator",
+      "comment": "Form Page",
+      "locator": "//div[contains(@class, 'header')]//*[contains(text(), 'Form')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "input_default": {
+      "name": "Input Default",
+      "comment": "Input Default",
+      "locator": "//form/div[1]//input[@aria-label='input']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "input_success": {
+      "name": "Input Success",
+      "comment": "Input Success",
+      "locator": "//form/div[1]//div[contains(text(), 'success')]/../parent::*",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "input_error": {
+      "name": "Input Error",
+      "comment": "Input Error",
+      "locator": "//form/div[1]//div[contains(text(), 'error')]/../parent::*",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "input_error_message": {
+      "name": "Input Error Message",
+      "comment": "Input Error Message",
+      "locator": "//form/div[1]//div[contains(@class,'input_has-error')]/div[contains(@class,'input__validation')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "input_disabled": {
+      "name": "Input Disabled",
+      "comment": "Input Disabled",
+      "locator": "//form/div[1]//div[contains(@class,'input_disabled')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "textarea_default": {
+      "name": "Input Success",
+      "comment": "Input Success",
+      "locator": "//form/div[3]//textarea[@aria-label='textarea']",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "textarea_success": {
+      "name": "Input Success",
+      "comment": "Input Success",
+      "locator": "//form/div[3]//div[contains(text(),'success')]/../parent::*",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "textarea_error": {
+      "name": "Input Error",
+      "comment": "Input Error",
+      "locator": "//form/div[3]//div[contains(text(),'error')]/../parent::*",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "textarea_error_message": {
+      "name": "Input Error Message",
+      "comment": "Input Error Message",
+      "locator": "//form/div[3]//div[contains(@class,'input_has-error')]/div[contains(@class,'input__validation')]",
+      "locale_path": "",
+      "search_cond": "xpath"
+    },
+    "textarea_disabled": {
+      "name": "Input Disabled",
+      "comment": "Input Disabled",
+      "locator": "//form/div[3]//div[contains(text(),'disabled')]/../parent::*",
+      "locale_path": "",
+      "search_cond": "xpath"
+    }
+
+  }
+}

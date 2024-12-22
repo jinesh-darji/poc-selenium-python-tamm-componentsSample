@@ -1,0 +1,82 @@
+variables:
+  SLACK_CHANNEL: qa
+  SLACK_USER: Deploy-Bot
+
+stages:
+  - PrepareEnvironment
+  - CodeQulaity
+  - E2E
+  - slack-notification
+
+Prepare Node Env:
+  stage: PrepareEnvironment
+  script:
+    - sudo yum -y install nodejs
+    - sudo chown -R $USER /usr/local/lib/node_modules
+    - sudo chown -R $USER /usr/lib/node_modules
+    - sudo chown -R `whoami` /usr/local
+
+Prepare Allure Reporting:
+  stage: PrepareEnvironment
+  script:
+    - sudo npm install -g allure-commandline --save-dev
+
+Prepare Appium Env:
+  stage: PrepareEnvironment
+  script:
+    - npm install -g appium
+    - npm install -g wd
+    - sudo pip install Appium-Python-Client
+
+Prepare Google Env:
+  stage: PrepareEnvironment
+  script:
+    - sudo yum -y install google-chrome-stable
+
+Prepare Test Env:
+  stage: PrepareEnvironment
+  before_script:
+    - git clone https://grigor.avagyan:$automation_token@gitlab.digitalx1.io/TAMM/quality-assurance/ui-automation-framework.git
+  script:
+    - sudo pip install pytest
+    - sudo pip install pylint
+    - sudo pip install bandit
+    - cd ui-automation-framework
+    - sudo pip install -r requirements.txt
+
+Bandit:
+  stage: CodeQulaity
+  allow_failure: true
+  script:
+    - bandit -r dls_auto
+
+PyLint:
+  stage: CodeQulaity
+  allow_failure: true
+  script:
+    - pylint dls_auto
+
+Autoamtion Tests:
+  stage: E2E
+  before_script:
+    - git clone https://grigor.avagyan:$automation_token@gitlab.digitalx1.io/TAMM/quality-assurance/ui-automation-framework.git
+  script:
+    - cd ui-automation-framework
+    - pwd > ../tmp
+    - export PYTHONPATH=$PYTHONPATH:`cat ../tmp`
+    - echo $PYTHONPATH
+    - cd ../
+    - pytest dls_auto
+
+slack-success-notification:
+  stage: slack-notification
+  script:
+    - echo "Pipeline on \`$CI_PROJECT_NAME\` succeed" | /usr/local/bin/slacktee -u $SLACK_USER  -c $SLACK_CHANNEL -a "good" -t "Deployment Notification" -e "Deployer" $GITLAB_USER_LOGIN -e "TAG" $CI_BUILD_TAG -e "URL" "https://dls-tamm.digitalx1.io" -q -p
+  allow_failure: true
+
+
+slack-failure-notification:
+  stage: slack-notification
+  when: on_failure
+  script:
+    - echo "Pipeline on \`$CI_PROJECT_NAME\` failed" | /usr/local/bin/slacktee -u $SLACK_USER  -c $SLACK_CHANNEL -a "danger" -t "Pipeline Failure Notification" -e "Deployer" $GITLAB_USER_LOGIN  -e "URL" "https://gitlab.digitalx1.io/$CI_PROJECT_PATH/pipelines/$CI_PIPELINE_ID" -p -q
